@@ -5,12 +5,20 @@ h4,
 p,
 li {
     font-family: sans-serif;
+    color: #444444;
+}
+
+h1,
+h2,
+h3 {
+    color: #008080;
 }
 
 h1 {
     font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
+
 }
 
 h2 {
@@ -64,4 +72,13 @@ footer p {
 
 .related {
     list-style: none;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border: 5px solid #008080;
 }
