@@ -82,3 +82,20 @@ aside {
     background-color: #f7f7f7;
     border: 5px solid #008080;
 }
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    /* color: red; */
+}
+
+article p:first-child {
+    /* problem of the pseudo class that first child means exactly first child */
+    color: red;
+}
