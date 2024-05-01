@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-
+/* PAGE SECTIONS*/
 body {
     color: #444;
     font-family: sans-serif;
@@ -17,6 +17,34 @@ body {
     margin-right: auto;
 }
 
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    /* the same as declaring padding-top/bottom = 20 & padding-right/left = 40*/
+    margin-bottom: 60px;
+    height: 80px;
+}
+
+nav {
+    font-size: 18px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border: 5px solid #008080;
+    padding: 50px 0;
+    width: 35%;
+}
+
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -62,11 +90,12 @@ ol {
 li {
     font-size: 20px;
     margin-bottom: 10px;
+    /* display: inline; */
 }
 
-footer p {
+/* footer p {
     font-size: 16px;
-}
+} */
 
 /* article header p {
     font-style: italic;
@@ -92,33 +121,6 @@ footer p {
 
 .related {
     list-style: none;
-}
-
-.main-header {
-    background-color: #f7f7f7;
-    padding: 20px 40px;
-    /* the same as declaring padding-top/bottom = 20 & padding-right/left = 40*/
-    margin-bottom: 60px;
-    height: 80px;
-}
-
-nav {
-    font-size: 18px;
-}
-
-article {
-    margin-bottom: 60px;
-}
-
-.post-header {
-    margin-bottom: 40px;
-}
-
-aside {
-    background-color: #f7f7f7;
-    border: 5px solid #008080;
-    padding: 50px 0;
-    width: 35%;
 }
 
 li:first-child {
@@ -163,4 +165,18 @@ a:active {
 .post-img {
     width: 100%;
     height: auto;
+}
+
+nav a:link {
+    /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+    display: block; */
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
 }
