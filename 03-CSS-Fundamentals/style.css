@@ -1,7 +1,16 @@
+* {
+    /* applies to every element on the page, except overridden*/
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     color: #444;
     font-family: sans-serif;
+    border-top: 10px solid #008080;
 }
+
 
 h1,
 h2,
@@ -18,10 +27,12 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -33,10 +44,19 @@ h4 {
 p {
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 li {
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 footer p {
@@ -71,11 +91,27 @@ footer p {
 
 .main-header {
     background-color: #f7f7f7;
+    padding: 20px 40px;
+    /* the same as declaring padding-top/bottom = 20 & padding-right/left = 40*/
+    margin-bottom: 60px;
+}
+
+nav {
+    font-size: 18px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.post-header {
+    margin-bottom: 40px;
 }
 
 aside {
     background-color: #f7f7f7;
     border: 5px solid #008080;
+    padding: 50px 0;
 }
 
 li:first-child {
@@ -84,6 +120,7 @@ li:first-child {
 
 li:last-child {
     font-style: italic;
+    margin-bottom: 0;
 }
 
 li:nth-child(even) {
