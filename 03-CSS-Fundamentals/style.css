@@ -11,6 +11,11 @@ body {
     border-top: 10px solid #008080;
 }
 
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h1,
 h2,
@@ -113,7 +118,7 @@ aside {
     background-color: #f7f7f7;
     border: 5px solid #008080;
     padding: 50px 0;
-    width: 500px;
+    width: 35%;
 }
 
 li:first-child {
