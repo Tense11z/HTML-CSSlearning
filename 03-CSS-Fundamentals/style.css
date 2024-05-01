@@ -94,6 +94,7 @@ footer p {
     padding: 20px 40px;
     /* the same as declaring padding-top/bottom = 20 & padding-right/left = 40*/
     margin-bottom: 60px;
+    height: 80px;
 }
 
 nav {
@@ -112,6 +113,7 @@ aside {
     background-color: #f7f7f7;
     border: 5px solid #008080;
     padding: 50px 0;
+    width: 500px;
 }
 
 li:first-child {
@@ -151,4 +153,9 @@ a:hover {
 a:active {
     background-color: cornflowerblue;
     font-weight: bold;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
 }
