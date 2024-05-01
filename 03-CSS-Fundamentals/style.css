@@ -1,11 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+    color: #444;
     font-family: sans-serif;
-    color: #444444;
 }
 
 h1,
@@ -95,7 +90,28 @@ li:nth-child(even) {
     /* color: red; */
 }
 
+/* This wont work*/
 article p:first-child {
     /* problem of the pseudo class that first child means exactly first child */
     color: red;
+}
+
+a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: darkred;
+    font-style: italic;
+    text-decoration: underline dotted;
+}
+
+a:active {
+    background-color: cornflowerblue;
+    font-weight: bold;
 }
