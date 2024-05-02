@@ -13,6 +13,7 @@ body {
     border: 4px solid black;
     width: 75%;
     margin: 50px auto;
+    position: relative;
 }
 
 .product-title {
@@ -29,15 +30,16 @@ body {
 
 .sale {
     position: absolute;
-    top: -18px;
-    left: -45px;
+    top: -17px;
+    left: -34px;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     background-color: red;
-    padding: 5px 20px;
+    padding: 7px 15px;
     letter-spacing: 2px;
+    display: inline-block;
 }
 
 .price {
@@ -72,8 +74,8 @@ body {
 }
 
 .color-palette p {
-    display: inline;
-    padding: 1px 10px;
+    display: inline-block;
+    padding: 10px 10px;
     margin-right: 10px;
 }
 
