@@ -23,6 +23,23 @@ body {
     padding: 15px;
 }
 
+.title {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: -18px;
+    left: -45px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+}
+
 .price {
     font-size: 24px;
 }
@@ -48,6 +65,42 @@ body {
 .more-info:hover,
 .more-info:active {
     text-decoration: none;
+}
+
+.color-palette {
+    margin-top: 30px;
+}
+
+.color-palette p {
+    display: inline;
+    padding: 1px 10px;
+    margin-right: 10px;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-blue {
+    background-color: rgb(53, 83, 182);
+    padding: 10px;
+}
+
+.color-red {
+    background-color: rgb(255, 59, 59);
+}
+
+.color-yellow {
+    background-color: gold;
+
+}
+
+.color-green {
+    background-color: greenyellow;
+}
+
+.color-brown {
+    background-color: rgb(68, 47, 47);
 }
 
 .details-title {
